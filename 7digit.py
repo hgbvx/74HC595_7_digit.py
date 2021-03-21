@@ -54,29 +54,3 @@ def display_digit(digit): #displaying digit on 7 segment display
         
 
 #display_digit(4) # displaying nr.4
-
-# for i in a:
-#     print(i)
-#     data.value(i)
-#     clock.value(1)
-#     clock.value(0)
-# latch.value(1)
-# latch.value(0)
-
-
-#for value in [63,6,91,79,102,109,125,7,127,103]:
- #   print(value)
-
-# while True:
-#     for value in [63,6,91,79,102,109,125,7,127,103]:
-#         bits = [value >> i & 1 for i in range(7,-1,-1)]
-#         for i in range(7,-1,-1):
-#             print(bits[i])
-#             data.value(bits[i])
-#             clock.value(1)
-#             clock.value(0)
-#         print()
-#         latch.value(1)
-#         latch.value(0)
-# 
-#         time.sleep_ms(000)
