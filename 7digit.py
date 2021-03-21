@@ -53,7 +53,7 @@ def display_digit(digit): #displaying digit on 7 segment display
     latch.value(0)
         
 
-display_digit(4)
+#display_digit(4) # displaying nr.4
 
 # for i in a:
 #     print(i)
